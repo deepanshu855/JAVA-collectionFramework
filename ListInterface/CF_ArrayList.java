@@ -19,6 +19,8 @@ class Data{
 // contains- Check if element exists.
 // indexOf(x)- Find first index of an element.
 
+// Vector is similar to arrayList but it is thread safe, it prevents race condition i.e. when multiple things are done at a time.
+
 public class CF_ArrayList {
     static void main(String[] args) {
         ArrayList<Integer> list= new ArrayList<>();
